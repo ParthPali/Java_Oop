@@ -1,0 +1,19 @@
+Inheritance:
+        Inheritance is system in which an object or class acquires all the properties of a parent object.
+        The advantage of inheritance is that you can reuse methods without having to duplicate the whole class.
+        The disadvantage of inheritance is that the parent and child classes cannot be used seperately
+
+Polymorphism:
+        Polymorphism is a way we can modify old methods from the inherited parent class in the newer child class
+        Advantage:
+                    Suppose you have multiple child classes under a parent class and you want to modify a specific child class
+                    If you make changes to the parent object every child object will change
+                    However with polymorphism you can use the same name of the method but modify or make the child object unique
+        Disadvantage:
+                    Run time polymorphism has performance issues as the machine needs to decide whether it should use the old
+                    or new method
+                    
+Encapsulation:
+        Encapsulation in Java is a mechanism of wrapping variables and code acting on the methods together as a single unit.
+        This is done by providing setters or getters in the code.
+        Advantage: With the getter and setter codes it is easier for an outside class to access data from a class
