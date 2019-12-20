@@ -2,9 +2,9 @@ package inheritance_Polymorph_Encapsule;
 
 public class Superclass {
 	
-	int accountNumber;
-	int amount;
-	int budget;
+	private int accountNumber;
+	private int amount;
+	private int budget;
 	
 	public Superclass(int accountNumber, int amount, int budget) {
 		this.accountNumber = accountNumber;
